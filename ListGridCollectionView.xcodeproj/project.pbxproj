@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		221F04671F3837C700C2316E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F04661F3837C700C2316E /* AppDelegate.swift */; };
-		221F04691F3837C700C2316E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F04681F3837C700C2316E /* ViewController.swift */; };
 		221F046C1F3837C700C2316E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221F046A1F3837C700C2316E /* Main.storyboard */; };
 		221F046E1F3837C700C2316E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221F046D1F3837C700C2316E /* Assets.xcassets */; };
 		221F04711F3837C700C2316E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221F046F1F3837C700C2316E /* LaunchScreen.storyboard */; };
+		221F04791F3838AB00C2316E /* ListGridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F04781F3838AB00C2316E /* ListGridCollectionViewController.swift */; };
+		221F047B1F38391200C2316E /* ListGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221F047A1F38391200C2316E /* ListGridCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		221F04631F3837C700C2316E /* ListGridCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListGridCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221F04661F3837C700C2316E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		221F04681F3837C700C2316E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		221F046B1F3837C700C2316E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		221F046D1F3837C700C2316E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221F04701F3837C700C2316E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221F04721F3837C700C2316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221F04781F3838AB00C2316E /* ListGridCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGridCollectionViewController.swift; sourceTree = "<group>"; };
+		221F047A1F38391200C2316E /* ListGridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListGridCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				221F04661F3837C700C2316E /* AppDelegate.swift */,
-				221F04681F3837C700C2316E /* ViewController.swift */,
 				221F046A1F3837C700C2316E /* Main.storyboard */,
 				221F046D1F3837C700C2316E /* Assets.xcassets */,
 				221F046F1F3837C700C2316E /* LaunchScreen.storyboard */,
 				221F04721F3837C700C2316E /* Info.plist */,
+				221F04781F3838AB00C2316E /* ListGridCollectionViewController.swift */,
+				221F047A1F38391200C2316E /* ListGridCollectionViewCell.swift */,
 			);
 			path = ListGridCollectionView;
 			sourceTree = "<group>";
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221F04691F3837C700C2316E /* ViewController.swift in Sources */,
+				221F04791F3838AB00C2316E /* ListGridCollectionViewController.swift in Sources */,
 				221F04671F3837C700C2316E /* AppDelegate.swift in Sources */,
+				221F047B1F38391200C2316E /* ListGridCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
